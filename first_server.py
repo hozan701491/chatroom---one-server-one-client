@@ -2,7 +2,7 @@ import socket
 
 while True:
     HOST = '127.0.0.1'
-    PORT = 1234
+    PORT = 1400
     print(f'server is lestning of {HOST} : {PORT}')
     server_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
@@ -68,4 +68,5 @@ while True:
 # print(f'connection with {client_address} closed!')
 
 # server_socket.close()
+
 # print("The sever is shut down!!")
